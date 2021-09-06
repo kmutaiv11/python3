@@ -1,0 +1,20 @@
+##
+# Introduction to Loops Lecture
+##
+
+# -*- coding: utf-8 -*-
+
+
+
+Word = "Hello"                       #initialize a variable Word with string "Hello"
+Letters = []                         #create an empty list
+'''
+loop through each character of a string, print each character. Check if the character
+in a string matches e, print a string and then append it into List
+'''
+for w in Word:                       #loop over each character
+    print(w)                         #print a character
+    if w == "e":                     #check if a character matches 'e'
+        print("What a funny letter")
+    Letters.append(w)                #Append each character into List.
+print(Letters)                       #print the list
